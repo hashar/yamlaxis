@@ -4,3 +4,8 @@ axis1:
 axis2:
     - value3
     - value4
+
+exclude:
+    - axis1: value1
+    - axis2: value3
+      axis1: value1
