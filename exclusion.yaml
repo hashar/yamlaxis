@@ -1,0 +1,5 @@
+exclude:
+    - database: postgre
+      python: py27
+    - python: py35
+      database: mysql
