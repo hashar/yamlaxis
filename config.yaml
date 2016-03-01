@@ -1,11 +1,13 @@
-axis1:
-    - value1
-    - value2
-axis2:
-    - value3
-    - value4
+python:
+    - py27
+    - py34
+    - py35
+database:
+    - postgre
+    - mysql
 
 exclude:
-    - axis1: value1
-    - axis2: value3
-      axis1: value1
+    - database: postgre
+      python: py27
+    - python: py35
+      database: mysql
