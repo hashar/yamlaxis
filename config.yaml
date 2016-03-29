@@ -1,7 +1,13 @@
-python:
-    - py27
-    - py34
-    - py35
-database:
-    - postgre
-    - mysql
+BROWSER:
+    - chrome
+    - firefox
+    - internet_explorer
+    - safari
+MEDIAWIKI_ENVIRONMENT:
+    - beta
+    - mediawiki
+PLATFORM:
+    - Linux
+    - OS X
+    - Windows 7
+    - Windows 8
